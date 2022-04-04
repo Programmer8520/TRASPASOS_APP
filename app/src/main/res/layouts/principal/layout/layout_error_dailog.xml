@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutDialogContainer"
+    android:layout_margin="20dp"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#F3E5F5"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="715dp" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layoutDialog"
+        android:layout_width="310dp"
+        android:layout_height="127dp"
+        android:layout_marginTop="64dp"
+        android:background="@drawable/dialog_background"
+        app:layout_constraintTop_toTopOf="@+id/textTitle"
+        tools:layout_editor_absoluteX="20dp">
+
+
+        <TextView
+            android:id="@+id/textTitle"
+            android:layout_width="341dp"
+            android:layout_height="34dp"
+            android:background="@drawable/error_background"
+            android:padding="10dp"
+            android:textColor="@color/colorWhite"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageIcon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:contentDescription="@string/app_name"
+            app:tint="@color/colorWhite"
+            tools:layout_editor_absoluteX="261dp"
+            tools:layout_editor_absoluteY="6dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/buttonAction"
+        android:layout_width="165dp"
+        android:layout_height="49dp"
+        android:background="@drawable/button_error_background"
+        android:textColor="@color/colorWhite"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/layoutDialog"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="85dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/jvilchis/Desktop/Aplicaciones Oficiales de HandHeld v8(Oreo) Android/TRASPASOS_APP/app/src/main/res/drawable/sucess_background.xml" value="0.38177083333333334" />
+        <entry key="..\:/Users/jvilchis/Desktop/Aplicaciones Oficiales de HandHeld v8(Oreo) Android/TRASPASOS_APP/app/src/main/res/layouts/entrada/fragment/layout/fragment_documento.xml" value="0.365625" />
+        <entry key="..\:/Users/jvilchis/Desktop/Aplicaciones Oficiales de HandHeld v8(Oreo) Android/TRASPASOS_APP/app/src/main/res/layouts/entrada/fragment/layout/fragment_escaneo_entrada.xml" value="0.365625" />
+        <entry key="..\:/Users/jvilchis/Desktop/Aplicaciones Oficiales de HandHeld v8(Oreo) Android/TRASPASOS_APP/app/src/main/res/layouts/entrada/fragment/layout/fragment_verificacion.xml" value="0.365625" />
+        <entry key="..\:/Users/jvilchis/Desktop/Aplicaciones Oficiales de HandHeld v8(Oreo) Android/TRASPASOS_APP/app/src/main/res/layouts/entrada/templete/layout/layout_documento.xml" value="0.365625" />
+        <entry key="..\:/Users/jvilchis/Desktop/Aplicaciones Oficiales de HandHeld v8(Oreo) Android/TRASPASOS_APP/app/src/main/res/layouts/entrada/templete/layout/layout_escaneo_entrada.xml" value="0.22" />
+        <entry key="..\:/Users/jvilchis/Desktop/Aplicaciones Oficiales de HandHeld v8(Oreo) Android/TRASPASOS_APP/app/src/main/res/layouts/entrada/templete/layout/layout_verificacion.xml" value="0.365625" />
+        <entry key="..\:/Users/jvilchis/Desktop/Aplicaciones Oficiales de HandHeld v8(Oreo) Android/TRASPASOS_APP/app/src/main/res/layouts/principal/layout/layout_success_dailog.xml" value="0.365625" />
+        <entry key="..\:/Users/jvilchis/Desktop/Aplicaciones Oficiales de HandHeld v8(Oreo) Android/TRASPASOS_APP/app/src/main/res/layouts/salida/fragment/layout/fragment_escaneo.xml" value="0.365625" />
+        <entry key="..\:/Users/jvilchis/Desktop/Aplicaciones Oficiales de HandHeld v8(Oreo) Android/TRASPASOS_APP/app/src/main/res/layouts/salida/templete/layout/layout_escaneo.xml" value="0.25" />
+        <entry key="..\:/Users/jvilchis/Desktop/Aplicaciones Oficiales de HandHeld v8(Oreo) Android/TRASPASOS_APP/app/src/main/res/menu/menu_navegacion.xml" value="0.365625" />
+        <entry key="..\:/Users/jvilchis/Desktop/App_Nuevas_Implementaciones/TRASPASOS_APP/app/src/main/res/layouts/entrada/fragment/layout/fragment_personal_entrada.xml" value="0.3234375" />
+        <entry key="..\:/Users/jvilchis/Desktop/App_Nuevas_Implementaciones/TRASPASOS_APP/app/src/main/res/layouts/entrada/templete/layout/layout_documento.xml" value="0.365625" />
+        <entry key="..\:/Users/jvilchis/Desktop/App_Nuevas_Implementaciones/TRASPASOS_APP/app/src/main/res/layouts/entrada/templete/layout/layout_escaneo_entrada.xml" value="0.3234375" />
+        <entry key="..\:/Users/jvilchis/Desktop/App_Nuevas_Implementaciones/TRASPASOS_APP/app/src/main/res/layouts/entrada/templete/layout/layout_personal_entrada.xml" value="0.3234375" />
+        <entry key="..\:/Users/jvilchis/Desktop/App_Nuevas_Implementaciones/TRASPASOS_APP/app/src/main/res/layouts/entrada/templete/layout/layout_verificacion.xml" value="0.3234375" />
+        <entry key="..\:/Users/jvilchis/Desktop/App_Nuevas_Implementaciones/TRASPASOS_APP/app/src/main/res/layouts/salida/fragment/layout/fragment_escaneo.xml" value="0.24739583333333334" />
+        <entry key="..\:/Users/jvilchis/Desktop/App_Nuevas_Implementaciones/TRASPASOS_APP/app/src/main/res/layouts/salida/fragment/layout/fragment_salida.xml" value="0.3229166666666667" />
+        <entry key="..\:/Users/jvilchis/Desktop/App_Nuevas_Implementaciones/TRASPASOS_APP/app/src/main/res/layouts/salida/fragment/layout/fragment_seguimiento.xml" value="0.25" />
+        <entry key="..\:/Users/jvilchis/Desktop/App_Nuevas_Implementaciones/TRASPASOS_APP/app/src/main/res/layouts/salida/fragment/layout/list_view_escaneo.xml" value="0.75" />
+        <entry key="..\:/Users/jvilchis/Desktop/App_Nuevas_Implementaciones/TRASPASOS_APP/app/src/main/res/layouts/salida/templete/layout/layout_escaneo.xml" value="0.5" />
+        <entry key="..\:/Users/jvilchis/Desktop/App_Nuevas_Implementaciones/TRASPASOS_APP/app/src/main/res/layouts/salida/templete/layout/layout_seguimiento.xml" value="0.5" />
+        <entry key="..\:/Users/jvilchis/Desktop/TRASPASOS/TRASPASOS_APP/app/src/main/res/drawable/button_bk_yellow.xml" value="0.38177083333333334" />
+        <entry key="..\:/Users/jvilchis/Desktop/TRASPASOS/TRASPASOS_APP/app/src/main/res/drawable/cancel_button_bk.xml" value="0.38177083333333334" />
+        <entry key="..\:/Users/jvilchis/Desktop/TRASPASOS/TRASPASOS_APP/app/src/main/res/drawable/custom_progressbar.xml" value="0.38177083333333334" />
+        <entry key="..\:/Users/jvilchis/Desktop/TRASPASOS/TRASPASOS_APP/app/src/main/res/drawable/splash.xml" value="0.38177083333333334" />
+        <entry key="..\:/Users/jvilchis/Desktop/TRASPASOS/TRASPASOS_APP/app/src/main/res/layouts/principal/layout/activity_actualizar.xml" value="0.1778115501519757" />
+        <entry key="..\:/Users/jvilchis/Desktop/TRASPASOS/TRASPASOS_APP/app/src/main/res/layouts/principal/layout/activity_login.xml" value="0.1778115501519757" />
+        <entry key="..\:/Users/jvilchis/Desktop/TRASPASOS/TRASPASOS_APP/app/src/main/res/layouts/principal/layout/activity_login_card.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/jvilchis/Desktop/TRASPASOS/TRASPASOS_APP/app/src/main/res/layouts/principal/layout/app_bar_menu_navegacion.xml" value="0.365625" />
+        <entry key="..\:/Users/jvilchis/Desktop/TRASPASOS/TRASPASOS_APP/app/src/main/res/layouts/principal/layout/content_menu_navegacion.xml" value="0.365625" />
+        <entry key="..\:/Users/jvilchis/Desktop/TRASPASOS/TRASPASOS_APP/app/src/main/res/layouts/principal/layout/fragment_home.xml" value="0.365625" />
+        <entry key="..\:/Users/jvilchis/Desktop/TRASPASOS/TRASPASOS_APP/app/src/main/res/layouts/principal/layout/layout_actualizar.xml" value="0.365625" />
+        <entry key="..\:/Users/jvilchis/Desktop/TRASPASOS/TRASPASOS_APP/app/src/main/res/layouts/principal/layout/layout_cabecera.xml" value="0.365625" />
+        <entry key="..\:/Users/jvilchis/Desktop/TRASPASOS/TRASPASOS_APP/app/src/main/res/layouts/principal/layout/layout_cabecera_color.xml" value="0.365625" />
+        <entry key="..\:/Users/jvilchis/Desktop/TRASPASOS/TRASPASOS_APP/app/src/main/res/layouts/principal/layout/layout_cabecera_vacio.xml" value="0.365625" />
+        <entry key="..\:/Users/jvilchis/Desktop/TRASPASOS/TRASPASOS_APP/app/src/main/res/layouts/principal/layout/layout_login.xml" value="0.365625" />
+        <entry key="..\:/Users/jvilchis/Desktop/TRASPASOS/TRASPASOS_APP/app/src/main/res/layouts/principal/layout/layout_tema.xml" value="0.365625" />
+        <entry key="..\:/Users/jvilchis/Desktop/TRASPASOS/TRASPASOS_APP/app/src/main/res/layouts/principal/layout/nav_header_menu_navegacion.xml" value="0.365625" />
+        <entry key="..\:/Users/jvilchis/Desktop/TRASPASOS/TRASPASOS_APP/app/src/main/res/layouts/principal/layout/templete.xml" value="0.365625" />
+        <entry key="..\:/Users/jvilchis/Desktop/deapapaye/TRASPASOS/TRASPASOS_APP/app/src/main/res/layouts/entrada/fragment/layout/fragment_datos_generales_entrada.xml" value="0.25625" />
+        <entry key="..\:/Users/jvilchis/Desktop/deapapaye/TRASPASOS/TRASPASOS_APP/app/src/main/res/layouts/principal/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/jvilchis/Desktop/deapapaye/TRASPASOS/TRASPASOS_APP/app/src/main/res/menu/menu_navegacion.xml" value="0.1" />
+        <entry key="..\:/Users/jvilchis/Desktop/respaldo de app nuevas implementaciones 04-03-2022 03-40pm/TRASPASOS_APP/app/src/main/res/layouts/principal/layout/activity_login.xml" value="0.29010416666666666" />
+        <entry key="..\:/Users/jvilchis/Desktop/respaldo de app nuevas implementaciones 04-03-2022 03-40pm/TRASPASOS_APP/app/src/main/res/layouts/principal/layout/activity_login_sap.xml" value="0.25" />
+        <entry key="..\:/Users/jvilchis/Desktop/respaldo de app nuevas implementaciones 04-03-2022 03-40pm/TRASPASOS_APP/app/src/main/res/layouts/principal/layout/layout_login.xml" value="0.29010416666666666" />
+        <entry key="..\:/Users/jvilchis/Desktop/respaldo de app nuevas implementaciones 04-03-2022 03-40pm/TRASPASOS_APP/app/src/main/res/layouts/principal/layout/layout_login_sap.xml" value="0.1" />
+        <entry key="..\:/Users/jvilchis/Desktop/respaldo de app nuevas implementaciones 04-03-2022 03-40pm/TRASPASOS_APP/app/src/main/res/layouts/salida/fragment/layout/fragment_escaneo.xml" value="0.33" />
+        <entry key="..\:/Users/jvilchis/Desktop/respaldo de app nuevas implementaciones 04-03-2022 03-40pm/TRASPASOS_APP/app/src/main/res/layouts/salida/fragment/layout/fragment_transporte.xml" value="0.1671875" />
+        <entry key="..\:/Users/jvilchis/Desktop/respaldo de app nuevas implementaciones 04-03-2022 03-40pm/TRASPASOS_APP/app/src/main/res/layouts/salida/templete/layout/layout_escaneo.xml" value="0.25" />
+        <entry key="..\:/Users/jvilchis/Desktop/respaldo de app nuevas implementaciones 04-03-2022 03-40pm/TRASPASOS_APP/app/src/main/res/layouts/salida/templete/layout/layout_transporte.xml" value="0.2984375" />
+        <entry key="..\:/Users/jvilchis/Desktop/respaldo de app nuevas implementaciones/TRASPASOS_APP/app/src/main/res/layouts/entrada/fragment/layout/fragment_cerrar_traspasos.xml" value="0.25" />
+        <entry key="..\:/Users/jvilchis/Desktop/respaldo de app nuevas implementaciones/TRASPASOS_APP/app/src/main/res/layouts/entrada/fragment/layout/fragment_datos_generales_entrada.xml" value="0.365625" />
+        <entry key="..\:/Users/jvilchis/Desktop/respaldo de app nuevas implementaciones/TRASPASOS_APP/app/src/main/res/layouts/entrada/fragment/layout/fragment_documento.xml" value="0.365625" />
+        <entry key="..\:/Users/jvilchis/Desktop/respaldo de app nuevas implementaciones/TRASPASOS_APP/app/src/main/res/layouts/entrada/fragment/layout/fragment_entrada.xml" value="0.33" />
+        <entry key="..\:/Users/jvilchis/Desktop/respaldo de app nuevas implementaciones/TRASPASOS_APP/app/src/main/res/layouts/entrada/fragment/layout/fragment_menu_entrada.xml" value="0.365625" />
+        <entry key="..\:/Users/jvilchis/Desktop/respaldo de app nuevas implementaciones/TRASPASOS_APP/app/src/main/res/layouts/entrada/fragment/layout/fragment_solicitudes_traspaso.xml" value="0.365625" />
+        <entry key="..\:/Users/jvilchis/Desktop/respaldo de app nuevas implementaciones/TRASPASOS_APP/app/src/main/res/layouts/entrada/fragment/layout/list_view_datos_doc.xml" value="0.365625" />
+        <entry key="..\:/Users/jvilchis/Desktop/respaldo de app nuevas implementaciones/TRASPASOS_APP/app/src/main/res/layouts/entrada/fragment/layout/list_view_solicitudes_trapaso_verificadas.xml" value="0.365625" />
+        <entry key="..\:/Users/jvilchis/Desktop/respaldo de app nuevas implementaciones/TRASPASOS_APP/app/src/main/res/layouts/entrada/templete/layout/layout_documento.xml" value="0.365625" />
+        <entry key="..\:/Users/jvilchis/Desktop/respaldo de app nuevas implementaciones/TRASPASOS_APP/app/src/main/res/layouts/entrada/templete/layout/layout_escaneo_entrada.xml" value="0.67" />
+        <entry key="..\:/Users/jvilchis/Desktop/respaldo de app nuevas implementaciones/TRASPASOS_APP/app/src/main/res/layouts/entrada/templete/layout/layout_solicitudes_traspaso.xml" value="0.365625" />
+        <entry key="..\:/Users/jvilchis/Desktop/respaldo de app nuevas implementaciones/TRASPASOS_APP/app/src/main/res/layouts/principal/layout/activity_login.xml" value="0.365625" />
+        <entry key="..\:/Users/jvilchis/Desktop/respaldo de app nuevas implementaciones/TRASPASOS_APP/app/src/main/res/layouts/principal/layout/fragment_home.xml" value="0.365625" />
+        <entry key="..\:/Users/jvilchis/Desktop/respaldo de app nuevas implementaciones/TRASPASOS_APP/app/src/main/res/layouts/principal/layout/layout_error_dailog.xml" value="0.33" />
+        <entry key="..\:/Users/jvilchis/Desktop/respaldo de app nuevas implementaciones/TRASPASOS_APP/app/src/main/res/layouts/principal/layout/layout_login.xml" value="0.22" />
+        <entry key="..\:/Users/jvilchis/Desktop/respaldo de app nuevas implementaciones/TRASPASOS_APP/app/src/main/res/layouts/principal/layout/layout_success_dailog.xml" value="0.67" />
+        <entry key="..\:/Users/jvilchis/Desktop/respaldo de app nuevas implementaciones/TRASPASOS_APP/app/src/main/res/layouts/principal/layout/layout_tema.xml" value="0.365625" />
+        <entry key="..\:/Users/jvilchis/Desktop/respaldo de app nuevas implementaciones/TRASPASOS_APP/app/src/main/res/layouts/principal/layout/layout_warning_dailog.xml" value="0.5" />
+        <entry key="..\:/Users/jvilchis/Desktop/respaldo de app nuevas implementaciones/TRASPASOS_APP/app/src/main/res/layouts/principal/layout/templete.xml" value="0.365625" />
+        <entry key="..\:/Users/jvilchis/Desktop/respaldo de app nuevas implementaciones/TRASPASOS_APP/app/src/main/res/layouts/salida/fragment/layout/fragment_almacen.xml" value="0.365625" />
+        <entry key="..\:/Users/jvilchis/Desktop/respaldo de app nuevas implementaciones/TRASPASOS_APP/app/src/main/res/layouts/salida/fragment/layout/fragment_datos_recuperados.xml" value="0.5" />
+        <entry key="..\:/Users/jvilchis/Desktop/respaldo de app nuevas implementaciones/TRASPASOS_APP/app/src/main/res/layouts/salida/fragment/layout/fragment_escaneo.xml" value="0.321875" />
+        <entry key="..\:/Users/jvilchis/Desktop/respaldo de app nuevas implementaciones/TRASPASOS_APP/app/src/main/res/layouts/salida/fragment/layout/fragment_menu_salida.xml" value="0.365625" />
+        <entry key="..\:/Users/jvilchis/Desktop/respaldo de app nuevas implementaciones/TRASPASOS_APP/app/src/main/res/layouts/salida/fragment/layout/fragment_personal.xml" value="0.3078125" />
+        <entry key="..\:/Users/jvilchis/Desktop/respaldo de app nuevas implementaciones/TRASPASOS_APP/app/src/main/res/layouts/salida/fragment/layout/fragment_recuperacion.xml" value="0.25" />
+        <entry key="..\:/Users/jvilchis/Desktop/respaldo de app nuevas implementaciones/TRASPASOS_APP/app/src/main/res/layouts/salida/fragment/layout/fragment_salida.xml" value="0.5" />
+        <entry key="..\:/Users/jvilchis/Desktop/respaldo de app nuevas implementaciones/TRASPASOS_APP/app/src/main/res/layouts/salida/fragment/layout/fragment_transporte.xml" value="0.3078125" />
+        <entry key="..\:/Users/jvilchis/Desktop/respaldo de app nuevas implementaciones/TRASPASOS_APP/app/src/main/res/layouts/salida/fragment/layout/list_view_resumen_escaneo.xml" value="0.365625" />
+        <entry key="..\:/Users/jvilchis/Desktop/respaldo de app nuevas implementaciones/TRASPASOS_APP/app/src/main/res/layouts/salida/templete/layout/fragment_recuperacion_de_programacion_de_traspasos.xml" value="0.5" />
+        <entry key="..\:/Users/jvilchis/Desktop/respaldo de app nuevas implementaciones/TRASPASOS_APP/app/src/main/res/layouts/salida/templete/layout/layout_almacen.xml" value="0.33" />
+        <entry key="..\:/Users/jvilchis/Desktop/respaldo de app nuevas implementaciones/TRASPASOS_APP/app/src/main/res/layouts/salida/templete/layout/layout_datos_recuperados.xml" value="0.5" />
+        <entry key="..\:/Users/jvilchis/Desktop/respaldo de app nuevas implementaciones/TRASPASOS_APP/app/src/main/res/layouts/salida/templete/layout/layout_escaneo.xml" value="0.5" />
+        <entry key="..\:/Users/jvilchis/Desktop/respaldo de app nuevas implementaciones/TRASPASOS_APP/app/src/main/res/layouts/salida/templete/layout/layout_personal.xml" value="0.3078125" />
+        <entry key="..\:/Users/lfaustinos.INNOVADOR/Documents/PROYECTOS/APP ANDROID/DESARROLLO/TRASPASOS_APP/app/src/main/res/layouts/principal/layout/layout_cabecera.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/lfaustinos.INNOVADOR/Documents/PROYECTOS/APP ANDROID/DESARROLLO/TRASPASOS_APP/app/src/main/res/layouts/salida/fragment/layout/fragment_datos_generales.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/lfaustinos.INNOVADOR/Documents/PROYECTOS/APP ANDROID/DESARROLLO/TRASPASOS_APP/app/src/main/res/layouts/salida/fragment/layout/fragment_escaneo.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/lfaustinos.INNOVADOR/Documents/PROYECTOS/APP ANDROID/DESARROLLO/TRASPASOS_APP/app/src/main/res/layouts/salida/fragment/layout/fragment_menu_salida.xml" value="0.29483695652173914" />
+        <entry key="..\:/Users/lfaustinos.INNOVADOR/Documents/PROYECTOS/APP ANDROID/DESARROLLO/TRASPASOS_APP/app/src/main/res/layouts/salida/fragment/layout/fragment_menu_seguimiento.xml" value="0.29483695652173914" />
+        <entry key="..\:/Users/lfaustinos.INNOVADOR/Documents/PROYECTOS/APP ANDROID/DESARROLLO/TRASPASOS_APP/app/src/main/res/layouts/salida/fragment/layout/fragment_transporte.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/lfaustinos.INNOVADOR/Documents/PROYECTOS/APP ANDROID/DESARROLLO/TRASPASOS_APP/app/src/main/res/layouts/salida/fragment/layout/list_view_escaneo.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/lfaustinos.INNOVADOR/Documents/PROYECTOS/APP ANDROID/DESARROLLO/TRASPASOS_APP/app/src/main/res/layouts/salida/templete/layout/layout_almacen.xml" value="0.29483695652173914" />
+        <entry key="..\:/Users/lfaustinos.INNOVADOR/Documents/PROYECTOS/APP ANDROID/DESARROLLO/TRASPASOS_APP/app/src/main/res/layouts/salida/templete/layout/layout_escaneo.xml" value="0.29483695652173914" />
+        <entry key="..\:/Users/lfaustinos.INNOVADOR/Documents/PROYECTOS/APP ANDROID/DESARROLLO/TRASPASOS_APP/app/src/main/res/layouts/salida/templete/layout/layout_personal.xml" value="0.29483695652173914" />
+        <entry key="..\:/Users/lfaustinos.INNOVADOR/Documents/PROYECTOS/APP ANDROID/DESARROLLO/TRASPASOS_APP/app/src/main/res/layouts/salida/templete/layout/layout_seguimiento.xml" value="0.29483695652173914" />
+        <entry key="..\:/Users/lfaustinos.INNOVADOR/Documents/PROYECTOS/APP ANDROID/DESARROLLO/TRASPASOS_APP/app/src/main/res/layouts/salida/templete/layout/layout_transporte.xml" value="0.29483695652173914" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

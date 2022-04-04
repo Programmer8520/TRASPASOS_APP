@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.TRASPASOS_APP.ui.home.HomeFragment"
+        android:label="Inicio"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_nav_home_to_menuSalidaFragment"
+            app:destination="@id/navigationSalida" />
+        <action
+            android:id="@+id/action_nav_home_to_navigationEntrada"
+            app:destination="@id/navigationEntrada" />
+    </fragment>
+    <navigation android:id="@+id/navigationSalida"
+        app:startDestination="@id/menuSalidaFragment">
+        <fragment
+            android:id="@+id/menuSalidaFragment"
+            android:name="com.example.TRASPASOS_APP.ui.salida.menuSalidaFragment"
+            android:label="PROCESO ESCANEO"
+            tools:layout="@layout/fragment_menu_salida">
+            <action
+                android:id="@+id/action_menuSalidaFragment_to_nav_home"
+                app:destination="@id/nav_home" />
+            <action
+                android:id="@+id/action_menuSalidaFragment_to_menuSeguimientoFragment"
+                app:destination="@id/menuSeguimientoFragment" />
+            <action
+                android:id="@+id/action_menuSalidaFragment_to_salidaFragment"
+                app:destination="@id/salidaFragment" />
+            <action
+                android:id="@+id/action_menuSalidaFragment_to_recuperacionFragment"
+                app:destination="@id/recuperacionFragment" />
+        </fragment>
+        <fragment
+            android:id="@+id/salidaFragment"
+            android:name="com.example.TRASPASOS_APP.ui.salida.salidaFragment"
+            android:label=""
+            tools:layout="@layout/fragment_salida" >
+            <action
+                android:id="@+id/action_salidaFragment_to_menuSalidaFragment"
+                app:destination="@id/menuSalidaFragment" />
+        </fragment>
+        <fragment
+            android:id="@+id/seguimientoFragment"
+            android:name="com.example.TRASPASOS_APP.ui.salida.seguimientoFragment"
+            android:label=""
+            tools:layout="@layout/fragment_seguimiento" >
+            <action
+                android:id="@+id/action_seguimientoFragment_to_menuSeguimientoFragment"
+                app:destination="@id/menuSeguimientoFragment" />
+        </fragment>
+        <fragment
+            android:id="@+id/menuSeguimientoFragment"
+            android:name="com.example.TRASPASOS_APP.ui.salida.menuSeguimientoFragment"
+            android:label=""
+            tools:layout="@layout/fragment_menu_seguimiento" >
+            <action
+                android:id="@+id/action_menuSeguimientoFragment_to_menuSalidaFragment"
+                app:destination="@id/menuSalidaFragment" />
+            <action
+                android:id="@+id/action_menuSeguimientoFragment_to_seguimientoFragment"
+                app:destination="@id/seguimientoFragment" />
+        </fragment>
+        <fragment
+            android:id="@+id/recuperacionFragment"
+            android:name="com.example.TRASPASOS_APP.ui.salida.recuperacionFragment"
+            android:label="DATOS RECUPERADOS"
+            tools:layout="@layout/fragment_recuperacion" >
+            <action
+                android:id="@+id/action_recuperacionFragment_to_menuSalidaFragment"
+                app:destination="@id/menuSalidaFragment" />
+        </fragment>
+    </navigation>
+    <!--Esta es la separacion entre ambos navigations-->
+    <navigation android:id="@+id/navigationEntrada"
+        app:startDestination="@id/menuEntradaFragment">
+
+        <fragment
+            android:id="@+id/menuEntradaFragment"
+            android:name="com.example.TRASPASOS_APP.ui.entrada.menuEntradaFragment"
+            android:label="PROCESO ESCANEO ENTRADA"
+            tools:layout="@layout/fragment_menu_entrada">
+            <action
+                android:id="@+id/action_menuEntradaFragment_to_entradaFragment"
+                app:destination="@id/entradaFragment" />
+            <action
+                android:id="@+id/action_menuEntradaFragment_to_cerrarTraspasosFragment"
+                app:destination="@id/cerrarTraspasosFragment" />
+        </fragment>
+
+        <fragment
+            android:id="@+id/entradaFragment"
+            android:name="com.example.TRASPASOS_APP.ui.entrada.entradaFragment"
+            android:label=""
+            tools:layout="@layout/fragment_entrada">
+
+
+            <action
+                android:id="@+id/action_entradaFragment_to_menuEntradaFragment"
+                app:destination="@id/menuEntradaFragment" />
+        </fragment>
+        <action
+            android:id="@+id/action_global_nav_home"
+            app:destination="@id/nav_home" />
+        <fragment
+            android:id="@+id/cerrarTraspasosFragment"
+            android:name="com.example.TRASPASOS_APP.ui.entrada.cerrarTraspasosFragment"
+            android:label="Cierre de Traspasos SAP"
+            tools:layout="@layout/fragment_cerrar_traspasos" >
+            <action
+                android:id="@+id/action_cerrarTraspasosFragment_to_menuEntradaFragment"
+                app:destination="@id/menuEntradaFragment" />
+        </fragment>
+
+    </navigation>
+
+</navigation>

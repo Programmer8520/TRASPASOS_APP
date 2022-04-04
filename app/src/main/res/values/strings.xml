@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">TRASPASOS_APP</string>
+    <string name="login_email_hint">Usuario</string>
+    <string name="login_password_hint">Contraseña</string>
+    <string name="btnLogin">Ingresar</string>
+    <string name="iniciar_sesion">INICIAR SESION</string>
+    <string name="title_activity_menu_navegacion">menuNavegacion</string>
+    <string name="URL_actualizar_cabecero"></string>
+    <string name="generarDocumentoSAP"></string>
+    <string name="generarDocumentoSAPTraspaso"></string>
+    <string name="insertarCabeceroCarga"></string>
+    <string name="insertarDetalleCarga"></string>
+    <string name="obtenerAlmacen"></string>
+    <string name="obtenerCabecero"></string>
+    <string name="obtenerConteoPorProducto"></string>
+    <string name="obtenerCortina"></string>
+    <string name="obtenerDetalle"></string>
+    <string name="obtnenerEmpleado"></string>
+    <string name="obtnerProducto"></string>
+    <string name="obtenerSeguimiento"></string>
+    <string name="obtenerTarimasRecienEscaneadas"></string>
+    <string name="obtenerTrasportista"></string>
+    <string name="obtenerTrapasosEnProceso"></string>
+    <string name="obtenerUltimoID"></string>
+
+    <string name="msg_error_empleado">No se encontro el numero de empleado</string>
+
+
+    <string name="msg_title_error_json">ERROR AL OBTENER DATOS</string>
+    <string name="msg_title_error_conexion">ERROR DE CONEXION</string>
+    <string name="msg_title_error_insertar">ERROR AL INGRESAR DATOS</string>
+
+
+
+    <string name="URL_obtener_empleado">/HandHeld/obtenerEmpleado/?nEmpleado=</string>
+    <string name="URL_insertar_cabecero_carga">/HandHeld/insertarCabeceroCargaEntrada/</string>
+    <string name="URL_obtener_cantidad_por_producto">/HandHeld/obtenerConteoPorProducto/?docSAP=</string>
+
+
+
+
+
+
+
+</resources>

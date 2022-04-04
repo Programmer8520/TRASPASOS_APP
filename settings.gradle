@@ -1,0 +1,2 @@
+rootProject.name = "TRASPASOS_APP"
+include ':app'

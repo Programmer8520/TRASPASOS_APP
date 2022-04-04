@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.entrada.datosGeneralesEntradaFragment"><!--Esto es una clase de java-->
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabDatosGeneralesEntrada"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient"
+        app:tabIndicatorColor="#FFFFFF"
+        app:tabInlineLabel="true"
+        app:tabTextColor="@color/whiteCardColor">
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/btnDocumentos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:icon="@drawable/busqueda"
+            android:text="Documento SAP" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/btnVerificacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/verificacion_white"
+            android:clickable="false"
+            android:text="Verificacion" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/btnPersonalEntrada"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/man_user_white"
+            android:clickable="false"
+            android:text="Personal" />
+
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/vpEntradaTarimas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tabDatosGeneralesEntrada"
+        tools:ignore="NotSibling">
+
+    </androidx.viewpager2.widget.ViewPager2>
+
+
+</RelativeLayout>

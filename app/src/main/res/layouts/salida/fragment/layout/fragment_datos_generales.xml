@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.salida.datosGeneralesFragment"><!--Esto es una clase de java-->
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabDatosGenerales"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient"
+        app:tabIndicatorColor="#FFFFFF"
+        app:tabInlineLabel="true"
+        app:tabTextColor="@color/whiteCardColor">
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/btnAlmacen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/warehouse_white"
+            android:text="Almacen" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/btnPersonal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/man_user_white"
+            android:text="Personal" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/btnTransporte"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/lorry_white"
+            android:text="Transporte" />
+
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/vpDatosGenerales"
+        android:layout_width="match_parent"
+        android:layout_height="683dp"
+        android:layout_below="@+id/tabDatosGenerales">
+
+    </androidx.viewpager2.widget.ViewPager2>
+
+</RelativeLayout>

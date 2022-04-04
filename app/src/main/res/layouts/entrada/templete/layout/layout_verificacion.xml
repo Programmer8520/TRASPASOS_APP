@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/loginCard"
+    android:layout_gravity="center"
+    android:layout_marginTop="@dimen/loginViewsMargin"
+    android:layout_marginBottom="@dimen/loginViewsMargin"
+    android:background="@color/whiteCardColor"
+    android:elevation="5dp"
+    app:cardCornerRadius="@dimen/loginCardRadius"
+    >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+
+        >
+
+        <LinearLayout
+            style="@style/linearParent"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:padding="@dimen/informationViewsMargin">
+
+            <TextView
+                style="@style/headerTextPrimary"
+                android:layout_marginTop="100dp"
+                android:text="VERIFICACION DE INFORMACION" />
+
+            <TextView
+                android:id="@+id/numeroSAP"
+                style="@style/TextLabel"
+                android:layout_marginTop="@dimen/newsMoreTextSize"
+                android:gravity="center"
+                android:text="XXX" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/loginViewsMargin"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/TextLabel"
+                    android:layout_width="96dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Montacargista" />
+
+                <EditText
+                    android:id="@+id/editMontacargista"
+                    style="@style/dropdown"
+
+                    android:enabled="false"
+
+                    android:gravity="center"
+                    android:inputType="text"
+                    android:maxLines="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/loginViewsMargin"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/TextLabel"
+                    android:layout_width="96dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Analista de inventarios" />
+
+                <EditText
+                    android:id="@+id/editAnalista"
+                    style="@style/dropdown"
+
+                    android:enabled="false"
+
+                    android:gravity="center"
+                    android:inputType="text"
+                    android:maxLines="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/loginViewsMargin"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/TextLabel"
+                    android:layout_width="96dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Guardia de seguridad" />
+
+                <EditText
+                    android:id="@+id/editGuardia"
+                    style="@style/dropdown"
+
+                    android:enabled="false"
+
+                    android:gravity="center"
+                    android:inputType="text"
+                    android:maxLines="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/loginViewsMargin"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/TextLabel"
+                    android:layout_width="96dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Transportista" />
+
+                <EditText
+                    android:id="@+id/editTransporte"
+                    style="@style/dropdown"
+                    android:enabled="false"
+                    android:gravity="center"
+                    android:inputType="text"
+                    android:maxLines="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/loginViewsMargin"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/TextLabel"
+                    android:layout_width="96dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Nombre de transportista" />
+
+                <EditText
+                    android:id="@+id/editNombre"
+                    style="@style/dropdown"
+
+                    android:enabled="false"
+
+                    android:gravity="center"
+                    android:inputType="text"
+                    android:maxLines="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/loginViewsMargin"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/TextLabel"
+                    android:layout_width="96dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Bodega de origen" />
+
+                <EditText
+                    android:id="@+id/editBodegaO"
+                    style="@style/dropdown"
+
+                    android:enabled="false"
+
+                    android:gravity="center"
+                    android:inputType="text"
+                    android:maxLines="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/loginViewsMargin"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/TextLabel"
+                    android:layout_width="96dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Bodega de destino" />
+
+                <EditText
+                    android:id="@+id/editBodegaD"
+                    style="@style/dropdown"
+
+                    android:enabled="false"
+
+                    android:gravity="center"
+                    android:inputType="text"
+                    android:maxLines="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/loginViewsMargin"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/TextLabel"
+                    android:layout_width="96dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Cantidad de tarimas" />
+
+                <EditText
+                    android:id="@+id/editTarimasEntrada"
+                    style="@style/dropdown"
+
+                    android:enabled="false"
+
+                    android:gravity="center"
+                    android:inputType="text"
+                    android:maxLines="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/loginViewsMargin"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/TextLabel"
+                    android:layout_width="96dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Observaciones" />
+
+                <EditText
+                    android:id="@+id/editObservaciones"
+                    style="@style/dropdown"
+
+                    android:enabled="false"
+
+                    android:gravity="center"
+                    android:inputType="text"
+                    android:maxLines="3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnConfirmar"
+                    style="@style/loginButton"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:enabled="true"
+                    android:text="Confirmar informacion, registrar personal" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</androidx.cardview.widget.CardView>
